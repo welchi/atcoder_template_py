@@ -1,25 +1,25 @@
 #!/usr/bin/env bats
 
-@test "a1.txt" {
-    run python3 a.py < a1.txt
+@test "b1.txt" {
+    run python3 b.py < b1.txt
     echo $output
     [ "$output" = ""  ]
 }
 
-@test "a2.txt" {
-    run python3 a.py < a2.txt
+@test "b2.txt" {
+    run python3 b.py < b2.txt
     echo $output
     [ "$output" = "" ]
 }
 
-@test "a3.txt" {
-    run python3 a.py < a3.txt
+@test "b3.txt" {
+    run python3 b.py < b3.txt
     echo $output
     [ "$output" = ""  ]
 }
 
-@test "a4.txt" {
-    run python3 a.py < a4.txt
+@test "b4.txt" {
+    run python3 b.py < b4.txt
     echo $output
     [ "$output" = "" ]
 }
